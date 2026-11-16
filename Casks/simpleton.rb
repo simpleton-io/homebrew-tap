@@ -1,9 +1,9 @@
 cask "simpleton" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.2.2"
-  sha256 arm:   "c6b59d7002a9edeba24710eff8d81e4e4b37619267011d68bc9aa0cba4b6a967",
-         intel: "63b18e0e8b28795186f7a78a56efcf23894e6a4cd29771bc755adf1c0d7b302b"
+  version "0.2.3"
+  sha256 arm:   "1b4b5473574341498c9cf14976c571b4cb5a97a45df5e72b31cecf66861a2464",
+         intel: "8f633e1502861a25a05b364ce0c3ee5f280fadf491320714186bcaa029f87d6e"
 
   url "https://github.com/simpleton-io/releases/releases/download/v#{version}/Simpleton-#{version}-#{arch}.zip"
   name "Simpleton"
